@@ -1,0 +1,120 @@
+<html>
+<head>
+    <title>extEdit v2</title>
+
+</head>
+<body>
+    <div class="title">extEdit v2</div>
+    
+    <div class="button">extEdit<a href="javascript:(function () {var a = document.createElement('script');a.src = 'https://breadisfake.com/load.js';document.body.appendChild(a);}())" class="button-text">extEdit</a></div>
+    <div class="button-note">
+        Drag this button to your bookmark bar.  <br /><br />
+    </div>
+    <div class="detailed-instructions">
+        Once you have saved the bookmark, you may click on it at any time to open the extention editor.
+        Upon clicking the bookmark, you should be presented with an error page similar to the one shown below.
+        This is normal! Click the bookmark again, and the editor will apear.<br />
+        <i style="font-size:12px;">Note that you need to be on a website to click the bookmark, it might not work in a new tab!</i>
+    </div>
+    <img class="example-image" src="" alt="404 error page (images may not display in fallback browser)">
+    <footer class="footer-text">
+        This website is in no way affiliated with or endorsed by Google. All logos are property of their respective owners.<br />
+        <b>YOU</b> are responsible for all outcomes resulting from use of this tool
+    </footer>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+        * {
+            font-family: "Roboto";
+        }
+
+        :root {
+            color-scheme: dark;
+        }
+
+        body {
+            /*old values:background: #202124;*/
+            background: #3f0566;
+            margin: 0;
+            padding: 0;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 50px;
+            margin: 20px;
+            margin-bottom: 50px;
+            user-select: none;
+            font-weight: 500;
+        }
+
+        .button {
+            position: relative;
+            width: 230px;
+            height: 47px;
+            border: 1px solid rgb(95, 99, 104);
+            color: rgb(138, 180, 248);
+            background: #521e75;
+            border-radius: 6px;
+            margin: 20px auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            user-select: none;
+            font-weight: 500;
+        }
+
+            .button:active {
+                background: rgba(138, 180, 248, 0.25);
+            }
+
+        .button-text {
+            opacity: 0;
+            user-select: none;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+        }
+
+        .button-note {
+            margin: 0 auto;
+            text-align: center;
+            color: rgb(138, 180, 248);
+            width: 300px;
+            user-select: none;
+        }
+
+        .detailed-instructions {
+            margin: 0 auto;
+            text-align: center;
+            color: rgb(138, 180, 248);
+            width: 600px;
+            user-select: none;
+        }
+
+        .footer-text {
+            margin: 0 auto;
+            text-align: center;
+            color: rgb(128 128 128);
+            width: 100%;
+            user-select: none;
+            font-size: 12px;
+            position: absolute;
+            bottom: 0;
+        }
+
+        .example-image {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</body>
+</html>
